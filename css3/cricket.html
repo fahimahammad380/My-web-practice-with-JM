@@ -1,0 +1,81 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .ball{
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        border-radius: 50%;
+        position: relative;
+        left: 630px;
+        transition: transform 2s ease-in-out 0.2s;
+    }
+    .field:hover .ball{
+        transform: translate(900px, -200px);
+    }
+    .bat{
+        transition: transform 0.2s ease 0.5s;
+    } 
+    .bat:hover{
+        transform: rotate(-65deg);
+        /* x=100%, y=0% */
+        transform-origin: 100% 0%;
+    }
+</style>
+<body>
+    <div class="field">
+        <img class="bat" src="images/bat.jpg" alt="">
+        <div class="ball"></div>
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .ball{
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        border-radius: 50%;
+        position: relative;
+        left: 500px;
+        top: -50px;
+        transition: transform 1s ease 0.305s;
+    }
+    .field:hover .ball{
+        transform: translate(1000px, -500px);
+        
+    }
+    .field{
+        border: 1px solid darkred;
+    }
+    .bat{
+        width: 30%;
+        transform-origin: 100% 0%;
+        transition: transform 1s ease 0.1s;
+    }
+    .bat:hover{
+        transform: rotate(-65deg);
+    }
+</style>
+<body>
+    <div class="field">
+            <img class="bat" src="images/bat.jpg" alt="">
+            <div class="ball"></div>
+    </div>
+</body>
+</html>
