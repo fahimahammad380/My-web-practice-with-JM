@@ -8,10 +8,13 @@
     <style>
         .grid{
             display: grid;
-            
+            /* grid-template-columns: 150px 150px 150px; */
+            /* grid-template-columns: repeat(3, 350px); */
+            /* 1fr means fraction. this valu will devide equally all elements  */
+            grid-template-columns: repeat(3, 1fr); 
+            grid-gap: 20px;
         }
         .box{
-            padding: 50px;
             border: 3px solid yellow;
         }
     </style>
