@@ -1,0 +1,42 @@
+.logo{
+width: 198.07px;
+height: 59px;
+left: 212px;
+}
+li{
+    margin: 15px;
+}
+.btn-sign-up{
+
+height: 43px;
+background: #21B573;
+border-radius: 33px;
+color: #FFFFFF;
+}
+.nav{
+    margin-left: 600px;
+}
+.block-1{
+width: 100%;
+height: 576px;
+margin: 0;
+background: #a7faa7;
+}
+.nav-bar{
+    margin-top: 20px;
+}
+h5{
+color: #FD511A;
+}
+h3{
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+}
+span{
+    color: #FD511A;
+}
+.cover-photo{
+
+}
